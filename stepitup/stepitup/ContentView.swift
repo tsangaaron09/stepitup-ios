@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("¡Hola, mundo!")
-            .padding()
+        NavigationView {
+            List(DataModel.data, id: \.self) { object in
+                NavigationLink(object.title, destination: DetailView(data: object))
+            }
+            .navigationTitle("Pages")
+            ColorPickerView()
+        }
     }
 }
 
