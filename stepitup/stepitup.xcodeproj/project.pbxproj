@@ -13,12 +13,6 @@
 		A3496B222625062300CCE250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3496B212625062300CCE250 /* Assets.xcassets */; };
 		A3496B252625062300CCE250 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3496B242625062300CCE250 /* Preview Assets.xcassets */; };
 		A3496B282625062300CCE250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3496B262625062300CCE250 /* LaunchScreen.storyboard */; };
-		E687B8492643264200368692 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B8482643264200368692 /* ProgressBar.swift */; };
-		E687B8552647C23100368692 /* FrontExerciseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B8542647C23100368692 /* FrontExerciseButton.swift */; };
-		E687B8582647C27600368692 /* BackExerciseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687B8572647C27600368692 /* BackExerciseButton.swift */; };
-		E6EDA9F9264322400072715C /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EDA9F8264322400072715C /* ExercisesView.swift */; };
-		E6EDA9FC264322DF0072715C /* ExerciseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EDA9FB264322DF0072715C /* ExerciseButton.swift */; };
-		E6F7F8BB2655A20A00A5AA27 /* RandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7F8BA2655A20A00A5AA27 /* RandomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +24,6 @@
 		A3496B242625062300CCE250 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3496B272625062300CCE250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3496B292625062300CCE250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E687B8482643264200368692 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
-		E687B8542647C23100368692 /* FrontExerciseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontExerciseButton.swift; sourceTree = "<group>"; };
-		E687B8572647C27600368692 /* BackExerciseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackExerciseButton.swift; sourceTree = "<group>"; };
-		E6EDA9F8264322400072715C /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
-		E6EDA9FB264322DF0072715C /* ExerciseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseButton.swift; sourceTree = "<group>"; };
-		E6F7F8BA2655A20A00A5AA27 /* RandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +60,7 @@
 				A3496B1D2625062100CCE250 /* SceneDelegate.swift */,
 				A3496B1F2625062100CCE250 /* ContentView.swift */,
 				A3496B212625062300CCE250 /* Assets.xcassets */,
-				E6EDA9F8264322400072715C /* ExercisesView.swift */,
 				A3496B262625062300CCE250 /* LaunchScreen.storyboard */,
-				E6F7F8BA2655A20A00A5AA27 /* RandomView.swift */,
-				E687B8542647C23100368692 /* FrontExerciseButton.swift */,
-				E6EDA9FB264322DF0072715C /* ExerciseButton.swift */,
-				E687B8572647C27600368692 /* BackExerciseButton.swift */,
-				E687B8482643264200368692 /* ProgressBar.swift */,
 				A3496B292625062300CCE250 /* Info.plist */,
 				A3496B232625062300CCE250 /* Preview Content */,
 			);
@@ -163,15 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E687B8552647C23100368692 /* FrontExerciseButton.swift in Sources */,
-				E6F7F8BB2655A20A00A5AA27 /* RandomView.swift in Sources */,
-				E6EDA9F9264322400072715C /* ExercisesView.swift in Sources */,
 				A3496B1C2625062100CCE250 /* AppDelegate.swift in Sources */,
-				E687B8492643264200368692 /* ProgressBar.swift in Sources */,
-				E6EDA9FC264322DF0072715C /* ExerciseButton.swift in Sources */,
 				A3496B1E2625062100CCE250 /* SceneDelegate.swift in Sources */,
 				A3496B202625062100CCE250 /* ContentView.swift in Sources */,
-				E687B8582647C27600368692 /* BackExerciseButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
