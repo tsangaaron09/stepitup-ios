@@ -10,7 +10,21 @@ import SwiftUI
 struct ContentView: View {
     @State var completed = false;
     var body: some View {
-        GoalsPage()
+        
+        TabView {
+            ExercisesView()
+                .tabItem {
+                    Label("Exercises", systemImage:"heart.fill")
+                }
+            RandomView()
+                .tabItem {
+                    Label("Random", systemImage: "person.circle")
+                }
+            GoalsPage()
+                .tabItem {
+                    Label("Random", systemImage: "calendar")
+                }
+        }
     }
 }
 
