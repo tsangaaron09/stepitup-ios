@@ -16,13 +16,13 @@ struct ContentView: View {
                 .tabItem {
                     Label("Exercises", systemImage:"heart.fill")
                 }
-            RandomView()
-                .tabItem {
-                    Label("Random", systemImage: "person.circle")
-                }
             GoalsPage()
                 .tabItem {
-                    Label("Random", systemImage: "calendar")
+                    Label("Goals", systemImage: "person.circle")
+                }
+            ExercisesView()
+                .tabItem {
+                    Label("Goals", systemImage: "calendar")
                 }
         }
     }
